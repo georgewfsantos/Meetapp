@@ -37,6 +37,8 @@ function Subscriptions({ isFocused }) {
           : subscription
       )
     );
+
+    loadSubscriptions();
   }
   return (
     <Background>

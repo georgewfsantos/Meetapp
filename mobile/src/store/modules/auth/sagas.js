@@ -36,7 +36,7 @@ export function* signUp({ payload }) {
       password,
     });
 
-    // history.push('/');
+    Alert.alert('Usuário cadastrado.', 'Seu cadastro foi realizado com sucesso');
   } catch (err) {
     Alert.alert('Falha no cadastro', 'Verifique seus dados');
 
